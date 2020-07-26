@@ -1,0 +1,25 @@
+<div class="mt-5 " >   
+    <div class="container ">
+        <div class="row justify-content-center ">
+          <div class="col-xs-8 col-8 ">
+            <nav >
+              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" routerLink='/user/login'  role="tab" aria-controls="nav-home" aria-selected="true">Log In</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" routerLink='/user/register' role="tab" aria-controls="nav-profile" aria-selected="false">Sing Up</a>
+              </div>
+            </nav>
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+              <div class="tab-pane fade show active"  role="tabpanel" aria-labelledby="nav-home-tab">
+                  <div class="container ">
+                    <div class="row justify-content-center">
+                        <div class="col-8 ">
+                            <router-outlet></router-outlet>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
