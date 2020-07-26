@@ -1,0 +1,35 @@
+g new nameProject --skip-tests
+
+----------material angular------
+ng add @angular/material
+
+
+-------------
+npm i --save ng2-file-upload
+npm i --save font-awesome
+npm i --save hammerjs
+npm i --save ngx-bootstrap
+npm i --save express
+
+npm i --save ng2-file-upload font-awesome hammerjs ngx-bootstrap express
+------------------------------------------------------------
+
+for Toastr Notifications
+
+npm install ngx-toastr --save   for Toastr Notifications 
+npm install @angular/animations --save
+
+    "styles": [
+
+      "node_modules/ngx-toastr/toastr.css",
+
+      "src/styles.css"
+
+    ],
+    -----------------------------------------------
+create guard
+ng g guard nameguard
+
+create intercptor
+ng g Interceptor nameIntercepter
+
